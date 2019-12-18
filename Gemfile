@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.0'
 gem 'pg', '~> 0.18.4'
 gem 'bootstrap', '~> 4.4.1'
 gem 'rails_12factor'
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
