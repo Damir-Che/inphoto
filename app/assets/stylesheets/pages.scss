@@ -1,6 +1,30 @@
+
 .container-backgraund{
   width: 100%;
   height: 100vh;
   background-size: cover; //уместилось внутри блока с сохр пропарциии
   background-image: url(image_path('backgraund.jpg'));
+}
+.block-content-center{
+  text-align: center;
+  margin-top: 15%  ;
+  border: 1px solid #66CDAA;
+  border-radius: 10px;
+  background: #66CDAA;
+  background: rgba(255,255,255,0.5);
+
+}
+
+.block-content-center h1{
+  color: #000;
+}
+
+.navLink:link,
+.navLink:visited{
+  color: #3498DB;
+}
+.navLink:hover,
+.navLink:active{
+  color: #59ABE3;
+  text-decoration: none;
 }
